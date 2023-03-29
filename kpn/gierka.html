@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+			<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+	
+	<title>Kamień, Papier, Nożyce</title>
+</head>
+<body>
+	<section class="gra">
+		<div class="tytul">Kamień, Papier, Nożyce</div>
+		<div class="zdjecia">
+		<img src="images/Empty.png" id='image' alt="">
+		<img src="images/Empty.png" id='imagekomp' alt="">
+		</div>
+		<div class="wynik">
+			<div class="wynikGracza">
+				<h2>Gracz</h2>
+				<p class="licznik">0</p>
+			</div>	
+         <div class="kto"></div>
+			<div class="wynikKomputer">
+				<h2>Komputer</h2>
+				<p class="licznikKomp">0</p>
+			</div>
+         
+		</div>
+		<div class="ruch">Wybierz swój ruch</div>
+		<div class="pozruchy">Pozostałe ruchy: 10 </div>
+		
+		<div class="opcje">
+			<button class="kamien" onclick="changeImage(this)">KAMIEN</button>
+			<button class="papier"onclick="changeImagePapier(this)">PAPIER</button>
+			<button class="nozyce" onclick="changeImageNozyce(this)">NOZYCE</button>
+		</div>
+	
+		<div class="wynik"></div>
+
+		<button class="reset">RESET</button>
+
+
+	</section>
+   
+	<script src="kpn.js">
+		
+	   </script>
+</body>
+</html>
